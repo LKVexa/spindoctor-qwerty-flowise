@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "property": "action",
+    "type": "string",
+    "required": true,
+    "description": "One of: script, folder, preset, list, report, functions, theory"
+  },
+  {
+    "id": 1,
+    "property": "input",
+    "type": "string",
+    "required": false,
+    "description": "script: q.* commands, one per line; folder: absolute folder path (runs q.folder); preset: id plus optional name=value overrides; list: filter text; report: report name (empty lists recent reports); functions: section (commands|gates|tools|presets|all) plus optional filter; theory: JSON object with the spindoctor_test_theory fields (source file|text|chat, path, text, excerpts, hypothesis, prediction, script, checks)"
+  }
+]
