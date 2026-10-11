@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+tests/e2e_results.json
+tests/host_check.json
+engine/examples/theory/*.pdf
+node_modules/
